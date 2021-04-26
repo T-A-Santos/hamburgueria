@@ -1,5 +1,5 @@
 :root {
-  font-size: 14px;
+  font-size: 16px;
   font-family: 'Open Sans';
   --text-primary: #b6b6b6;
   --text-secondary: #ececec;
@@ -10,7 +10,7 @@
   
 body {
   color: black;
-  background-color: white;
+  background-color: #faf0f0;
   margin: 0;
   padding: 0;
 }
@@ -73,7 +73,7 @@ main {
 
 .link-text {
   display: none;
-  margin-left: 0.2rem;
+  margin-left: 1rem;
 }
 
 .nav-link svg {
@@ -123,6 +123,7 @@ main {
 .navbar:hover .logo svg {
   transform: rotate(-180deg);
 }
+
 
 /* Small screens */
 @media only screen and (max-width: 600px) {
@@ -213,20 +214,15 @@ main {
   display: block;
 }
 
-  .Burguer {
-    left:50%;
-    top:50%;
-    margin-left:480px;
-    margin-top:-40px;
-  }
-  
-  .intro {
-    width: 960px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* .blue_img {
+  margin-left:480px;
+  margin-top:-40px;
+} */
 
    /* */
 
@@ -264,3 +260,15 @@ main {
       font-size: 7px;
   }
 }
+
+/* flexbox */
+
+.flex {
+  display: flex;
+}
+
+.flex > div {
+  margin: 10px;
+}
+
+/* fundo */
